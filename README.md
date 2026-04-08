@@ -1,31 +1,43 @@
-Project Work: Data Analysis & Business Intelligence
+# 📊 Data Analyst Portfolio | Michelapia Gaggiano
 
-Ruolo: Data Preparer
+Benvenuti nel mio portfolio di Data Analysis. In questo repository ho raccolto i progetti principali che dimostrano le mie competenze nell'intera pipeline del dato: dalla pulizia e trasformazione (Data Cleaning & ETL) alla creazione di dashboard interattive (Business Intelligence).
 
-Obiettivo: Trasformazione e pulizia di dataset grezzi (Prodotti, Transazioni, Clienti) per garantire l'integrità del dato prima del modellamento.
+---
 
-Strumenti: Power Query, Excel.
+## 📂 Struttura del Portfolio
 
-Key Tasks: Data Cleaning avanzato, Transpose di tabelle non strutturate, normalizzazione di formati internazionali e gestione di stringhe (Trim).
+### 🔵 [Power BI](./Power%20BI)
+*Visualizzazione dati e Business Intelligence avanzata.*
+* **Dashboard Performance Aziendali:** Analisi olistica di Ricavi, Redditività e Distribuzione Geografica.
+* **Competenze applicate:** Modellazione dati con **Star Schema**, creazione di misure dinamiche in **DAX** e normalizzazione dei dati geografici.
+* **Project Work Gruppo A:** Analisi collaborativa focalizzata sulla reportistica aziendale.
 
-📊 Guida alla Lettura della Dashboard (Power BI)
-Questa dashboard è stata progettata per fornire una visione olistica delle performance aziendali, focalizzandosi su tre pilastri principali: Ricavi, Redditività e Distribuzione Geografica.
+### 🐍 [Python](./Python)
+*Analisi statistica e manipolazione dati tramite programmazione.*
+* **Analisi Incidenti Aerei:** Notebook dedicato all'esplorazione dati (EDA), pulizia con **Pandas** e visualizzazione con **Matplotlib**.
+* **Data Exploration:** Script per l'analisi preliminare e la validazione di dataset strutturati.
 
-KPI Principali (Indicatori Chiave)
-Total Revenue (Ricavi Totali): Calcolati incrociando i dati delle transazioni con i listini prodotti, al netto di sconti e resi.
+### 📗 [Excel](./Excel)
+*Reporting professionale e gestione dati.*
+* **Reporting Logistica & Inventory Management:** Modello per l'ottimizzazione delle scorte e il monitoraggio dei flussi di magazzino.
+* **Data Cleaning Avanzato:** Trasformazione di dataset grezzi (Prodotti, Transazioni, Clienti) utilizzando **Power Query**, gestione di stringhe e normalizzazione formati internazionali.
 
-Profit Margin (Margine di Profitto): Analisi della differenza tra prezzo di vendita e costo unitario per identificare i prodotti più redditizi.
+### 📑 [SQL](./SQL)
+*Interrogazione e gestione di database relazionali.*
+* **Query MariaDB:** Script SQL per l'estrazione, il filtraggio e il join di tabelle per analisi complesse.
 
-Transaction Volume: Monitoraggio della frequenza d'acquisto per individuare picchi stagionali.
+---
 
-Cosa osservare nei Report:
-Analisi per Categoria Prodotto: Grazie alla pulizia della tabella Products, è possibile filtrare le vendite per categoria e sottocategoria, individuando quali linee di business trascinano il fatturato.
+## 🛠️ Tech Stack & Skills
+* **Linguaggi:** Python (Pandas, Numpy, Matplotlib), SQL (MariaDB).
+* **Strumenti BI:** Power BI (Power Query, DAX), Microsoft Excel (Pivot, VLOOKUP).
+* **Data Skills:** Data Cleaning, ETL, Star Schema Modeling, Data Storytelling.
 
-Performance Regionale: Utilizzando i dati normalizzati della tabella Customers, la mappa mostra la concentrazione dei ricavi per area geografica, evidenziando le zone con maggior potenziale di crescita.
+---
 
-Trend Temporale: Il grafico a linee mostra l'andamento delle vendite nel tempo, permettendo di verificare l'efficacia delle campagne marketing o l'impatto di fattori esterni.
+## 📫 Contatti
+* **LinkedIn:** https://www.linkedin.com/in/michelapia-gaggiano/
+* **Email:** michelapia@hotmail.it
 
-Dettagli Tecnici del Modello:
-Star Schema: Le tabelle Products, Customers e Calendar sono collegate alla tabella dei fatti Transactions tramite relazioni 1:N.
-
-Misure DAX: Ho implementato misure personalizzate per il calcolo dinamico dei margini e delle variazioni percentuali rispetto al periodo precedente.
+---
+*Ultimo aggiornamento: Aprile 2026*
